@@ -1,0 +1,28 @@
+<div id="list"></div>
+<script src="manifest-utils.js"></script>
+<script src="pwa-list.js"></script>
+<style>
+  body {
+    font: menu;
+
+  }
+  #list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    text-align: center;
+  }
+
+  #list > div {
+    display: inline-block;
+  }
+
+  #list > div > img {
+    width: 64px;
+    height: 64px;
+  }
+  #list > div > span {
+    display: block;
+    text-overflow: ellipsis;
+  }
+</style>
